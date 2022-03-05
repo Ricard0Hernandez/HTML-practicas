@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 Pasteleria</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+<!--Encabezado-->
+<h1><big>Pasteleria El rincon</big> </h1>    
+<p> En la <i>"Pasteleria El Rincon"</i> Estamos comprometidos con brindarte <br/>los mejores sabores de nuestro extenso menú para deleitar tu paladar </p>
+
+<!--tabla de contenidos--> 
+<table style= 'width: 400px;'>
+     <thead>
+     <tr> 
+         <th>Pastel</th>
+         <th>Precio</th>
+     </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td>Chocolate</td>
+        <td>$350</td>
+    </tr>
+    <tr>
+        <td>Tres leches</td>
+        <td>$300</td>
+    </tr>
+    <tr>
+        <td>Cafe</td>
+        <td>$380</td>
+    </tr>
+    <tr>
+        <td>Mil hojas</td>
+        <td>$288</td>
+    </tr>
+    <tr>
+        <td>Cookies and cream</td>
+        <td>$330</td>
+    </tr>
+    <tr>
+        <td>Fresa</td>
+        <td>$330</td>
+    </tr>
+</tbody>
+ </table>
+
+ <!--lista sin ordenar-->
+ <h4>Combinación de sabores</h4>
+<ul>
+    <li>sabor 1</li>
+    <li>sabor 2</li>
+    <li>sabor 3</li>
+    <li>sabor 4</li>
+    <li>sabor 5</li>
+</ul>
+
+<!--formularios-->
+<form action="/formulario" method="post">
+    <label for="nombre"> Nombre </label>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+<br>
+    <label for="apellido"> Apellido</label>
+    <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+<br>
+    <label for="edad">Edad </label>
+    <input type="number" id="edad" name="edad" placeholder="Edad" />
+<br>
+    <label for="correo1">E-mail</label>
+    <input type="email" id="correo1" name="correo1" placeholder="E-mail"/>
+<br>
+    <label for="descripcion">Descripciòn</label>
+    <textarea cols="50" rows="5" id="descripcion" placeholder="Ingresa pastel y sabores" name="descripcion"></textarea>
+<br>
+<input type="submit"/>
+
+</form>
+
+<footer>
+<table style= 'width: 350px;'>
+    <thead>
+        <tr>
+        <td>Contactanos</td>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Direccion</td>
+        <td>Av Insurgentes 999</td>
+    </tr>
+    <tr>
+        <td>Telefono</td>
+        <td> 55 999 999</td>
+    </tr>
+    <tr>
+        <td>Horarios de atencion</td>
+        <td>10:00 am a 06:00 pm </td>
+    </tr>
+    </tbody>
+</table>
+</footer>
+
+</body>
+</html>
